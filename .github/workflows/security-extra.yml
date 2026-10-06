@@ -43,6 +43,7 @@ jobs:
 
     with:
       scan-args: |-
+        --config=./osv-scan-config.toml
         --recursive
         ./
       upload-sarif: true
