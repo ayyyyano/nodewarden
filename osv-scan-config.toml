@@ -1,0 +1,4 @@
+[[IgnoredVulns]]
+id = "GHSA-vfj7-8cjw-p6xm"
+ignoreUntil = 2026-12-31
+reason = "No upstream fixed release exists for braces 3.0.3; this is a dev-only transitive dependency. Revisit when upstream publishes a fix."
